@@ -2,14 +2,128 @@
 body {
         background-image: url(../images/hotel-wallpaper-black.png);
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        color:#777777;
-        margin-top:70px;
+        min-height: 100%;
+
+}  
+
+h1 {
+    background-color: #4aaaa5;
+    display: inline-flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
 }
 
-#top {
+.maincontent {
+    min-height: 100%;
+    position: relative;
+}
+
+
+
+.content {
+    width: 960px;
+    color: #777777;
+    background-color: white;
+    padding-right: 40 px;
+    padding-left: 40 px;
+    padding-bottom: 60px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 18pt;
+    padding: 30px 0 8px 10px;
+}
+
+footer {
+    margin: 0 auto;
+    background: #666;
+    border-top: 5px solid #4aaaa5;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 10px;
+    position: absolute;
+    clear:both;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    margin-top: 60px;
+}
+
+img {
+    padding: 20px;
+}
+
+a {
+    padding: 10px;
+    padding-top: 30px;
+    text-decoration: none;
+    color: #cccccc
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.top {
+    padding-bottom: 30px;
+}
+
+.container-fluid {
+    min-height: 70px;
+    width: 100%;
+}
+.nav {
+    height: 70px;
+}
+
+.spn {
+    text-align: center;
+    padding: 20px;
+}
+​
+.mt-10 {
+    margin-top: 2rem !important;
+  }
+​
+.mb-10 {
+    margin-top: 2rem !important;
+}
+​
+.ml-10 {
+    margin-left: 2rem !important;
+}
+
+@media screen and (min-width: 980px) {
+    img {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 980px) {
+    img {
+        width: 200px;
+    }
+}
+​
+@media screen and (max-width: 768px) {
+    img {
+        width: 400px;
+    }
+}
+​
+@media screen and (max-width: 640px) {
+    img {
+        width: 500px;
+
+
+
+
+
+/* #top {
     background-color: white;
     height: 90px;
     z-index: 0;
@@ -117,7 +231,7 @@ html, body {
     height: 100%;
 }
 
-/*contact stuff*/
+contact stuff
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;  
@@ -126,7 +240,7 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     margin-top: 6px; 
     margin-bottom: 16px; 
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical  Allow the user to vertically resize the textarea (not horizontally) 
   }
   input[type=submit] {
     background-color: #4CAF50;
@@ -140,7 +254,7 @@ input[type=text], select, textarea {
       color: lightgray;
   }
 
-  /*portfolio*/
+
 
   .portfolio content {
       width: 960px;
@@ -174,4 +288,4 @@ input[type=text], select, textarea {
 
   .port5 {
       transform: rotate(90deg);
-  }
+  } */

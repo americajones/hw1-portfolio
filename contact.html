@@ -2,51 +2,58 @@
 
 <head>
     <title>America Jones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" lang="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" lang="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <section id="maincontent">
-        <div id="top">
-            <header>
-                <h1><strong>AMERICA JONES</strong></h1>
-            </header>
-
-            <div class="buttons">
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                </ul>
+    <div class= "top">
+    <div class="container-fluid border-bottom bg-white">
+        <div class="row">
+            <div class="col-md-8 full">
+                <h1>America </br>Jones</h1>
+            </div>
+            ​
+            <div class="col-md-4 spn">
+                <a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="#">Contact</a>
             </div>
         </div>
-        <div class="content">
-
-            <h1>Contact</h1>
-            <div class="container">
-                <form action="#.php">
-
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Johan Johanssen">
-
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="jojohan@jojo.com">
-
-
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Write something.."
-                        style="height:200px"></textarea>
-
-                    <input type="submit" value="Submit">
-
-                </form>
+    </div>
+</div>
+    <section class="maincontent">
+        <div class="container">
+            <div class="content">
+            <div class="row">
+                <h2>Contact</h2>
+            </div>
+            <div class="row">
+                <div class="col-9">
+                    <form>
+                        <div class="form-group">
+                            <label for="Input1">Name</label>
+                            <input type="text" class="form-control" id="Input1" placeholder="Johan Johanssen">
+                        </div>
+                        <div class="form-group">
+                            <label for="Input2">Email address</label>
+                            <input type="email" class="form-control" id="Input2" placeholder="jo@jojo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="Textarea1">Example textarea</label>
+                            <textarea class="form-control" id="Textarea1" rows="8"
+                                placeholder="Your message here"></textarea>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
+        </div>
+        <footer>
+            <p>le copywrite</p>
+        </footer>
     </section>
-    <footer>
-        <p>copywrite</p>
-    </footer>
 </body>
 
 
